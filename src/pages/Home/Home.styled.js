@@ -19,14 +19,16 @@ export const MainContent = styled.div`
 `;
 export const ContactsBookLine = styled(FaAddressBook)`
   color: rgb(251, 225, 255);
-
+  height: 20%;
+  width: 60%;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 5px;
   transition: all 300ms ease;
+
   &:hover {
-    color: orange;
-    transition: all 300ms ease;
+    background-color: #2a404e;
+    transition: all 500ms ease;
   }
 `;
 
