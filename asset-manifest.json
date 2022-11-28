@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/goit-react-redux-phonebook-registration/static/css/main.a81f6d6d.css",
+    "main.js": "/goit-react-redux-phonebook-registration/static/js/main.d1c0f65c.js",
+    "static/js/526.588f9486.chunk.js": "/goit-react-redux-phonebook-registration/static/js/526.588f9486.chunk.js",
+    "static/js/588.8b5fff63.chunk.js": "/goit-react-redux-phonebook-registration/static/js/588.8b5fff63.chunk.js",
+    "static/js/10.e46ecbd3.chunk.js": "/goit-react-redux-phonebook-registration/static/js/10.e46ecbd3.chunk.js",
+    "static/js/542.ee0a9dfb.chunk.js": "/goit-react-redux-phonebook-registration/static/js/542.ee0a9dfb.chunk.js",
+    "static/js/705.37e1d1e8.chunk.js": "/goit-react-redux-phonebook-registration/static/js/705.37e1d1e8.chunk.js",
+    "static/js/103.c746153f.chunk.js": "/goit-react-redux-phonebook-registration/static/js/103.c746153f.chunk.js",
+    "static/js/425.6cf0a908.chunk.js": "/goit-react-redux-phonebook-registration/static/js/425.6cf0a908.chunk.js",
+    "static/js/562.dae98b43.chunk.js": "/goit-react-redux-phonebook-registration/static/js/562.dae98b43.chunk.js",
+    "static/media/Rectangle 1395.png": "/goit-react-redux-phonebook-registration/static/media/Rectangle 1395.c9522e8f99370a301cc5.png",
+    "static/media/img2.akspic.ru-atmosfera-geometriya-matematika-purpur-fioletovyj-1080x1920.jpg": "/goit-react-redux-phonebook-registration/static/media/img2.akspic.ru-atmosfera-geometriya-matematika-purpur-fioletovyj-1080x1920.355047737532e43a9f11.jpg",
+    "index.html": "/goit-react-redux-phonebook-registration/index.html",
+    "main.a81f6d6d.css.map": "/goit-react-redux-phonebook-registration/static/css/main.a81f6d6d.css.map",
+    "main.d1c0f65c.js.map": "/goit-react-redux-phonebook-registration/static/js/main.d1c0f65c.js.map",
+    "526.588f9486.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/526.588f9486.chunk.js.map",
+    "588.8b5fff63.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/588.8b5fff63.chunk.js.map",
+    "10.e46ecbd3.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/10.e46ecbd3.chunk.js.map",
+    "542.ee0a9dfb.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/542.ee0a9dfb.chunk.js.map",
+    "705.37e1d1e8.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/705.37e1d1e8.chunk.js.map",
+    "103.c746153f.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/103.c746153f.chunk.js.map",
+    "425.6cf0a908.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/425.6cf0a908.chunk.js.map",
+    "562.dae98b43.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/562.dae98b43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a81f6d6d.css",
+    "static/js/main.d1c0f65c.js"
+  ]
+}
