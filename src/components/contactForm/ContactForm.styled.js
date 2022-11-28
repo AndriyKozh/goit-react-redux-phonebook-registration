@@ -65,5 +65,5 @@ export const Button = styled.button`
 
 export const NewContact = styled.h3`
   text-align: center;
-  margin-top: 10px;
+  margin-top: 40px;
 `;

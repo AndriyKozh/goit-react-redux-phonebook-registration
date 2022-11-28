@@ -14,7 +14,12 @@ export const Filter = () => {
       <Contacts>Contacts</Contacts>
       <Lable>
         Find contacts by name
-        <InputField type="text" name="filter" onChange={inputData} />
+        <InputField
+          type="text"
+          name="filter"
+          onChange={inputData}
+          placeholder="Filter"
+        />
       </Lable>
     </BlockFilter>
   );

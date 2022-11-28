@@ -6,7 +6,6 @@ import { ContactForm } from '../../components/contactForm/ContactForm';
 import { Filter } from '../../components/filter/Filter';
 import { ContactList } from '../../components/contactList/ContactList';
 import { useEffect } from 'react';
-import Clock from 'components/Clock/Clock';
 
 export default function Phonebook() {
   const dispatch = useDispatch();
@@ -19,7 +18,7 @@ export default function Phonebook() {
   return (
     <div>
       <ContactForm />
-      <Clock />
+
       <Filter />
       <Contact>
         {isLoading && !error && <b>Request in progress...</b>}

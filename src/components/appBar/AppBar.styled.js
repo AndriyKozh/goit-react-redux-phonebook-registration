@@ -4,9 +4,9 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   width: 85%;
-  margin-top: 30px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
 

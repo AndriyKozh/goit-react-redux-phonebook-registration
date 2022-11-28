@@ -6,6 +6,8 @@ import { useAuth } from './hooks';
 import { refreshUser } from 'redux/auth/operation';
 import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
+import PhoneBtnIcon from './phoneBtnIconStyle/PhoneBtnIcon';
+import Clock from './Clock/Clock';
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
 const PhoneBook = lazy(() => import('../pages/Phonebook/Phonebook'));
@@ -24,6 +26,8 @@ export function App() {
     <div className="App">
       <div className="content">
         <div className="emblem">
+          <PhoneBtnIcon />
+          <Clock />
           {isRefreshing ? (
             'Fetching user data...'
           ) : (

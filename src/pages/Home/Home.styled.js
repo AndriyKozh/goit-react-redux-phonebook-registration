@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { RiContactsBookLine } from 'react-icons/ri';
+import { FaAddressBook } from 'react-icons/fa';
 
 export const MainContent = styled.div`
   display: flex;
@@ -17,8 +17,9 @@ export const MainContent = styled.div`
   gap: 15px;
   border-radius: 4px;
 `;
-export const ContactsBookLine = styled(RiContactsBookLine)`
+export const ContactsBookLine = styled(FaAddressBook)`
   color: rgb(251, 225, 255);
+
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 5px;
