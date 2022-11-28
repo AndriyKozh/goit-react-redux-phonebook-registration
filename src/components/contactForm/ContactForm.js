@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/contacts/operation';
 import { selectContacts } from 'redux/contacts/selectors';
 import { Formik } from 'formik';
+import Notiflix from 'notiflix';
 // import * as yup from 'yup';
 import {
   MainForm,
@@ -12,7 +13,41 @@ import {
   Button,
   NewContact,
 } from './ContactForm.styled';
-import Notiflix from 'notiflix';
+
+Notiflix.Notify.init({
+  className: 'notiflix-report',
+  width: '320px',
+  position: 'center-center',
+  backgroundColor: '#f8f8f8',
+  borderRadius: '25px',
+  rtl: false,
+  timeout: 1000,
+  zindex: 4002,
+  backOverlay: true,
+  backOverlayColor: 'rgba(0,0,0,0.5)',
+  backOverlayClickToClose: false,
+  fontFamily: 'Quicksand',
+  svgSize: '110px',
+  plainText: true,
+  titleFontSize: '16px',
+  titleMaxLength: 34,
+  messageFontSize: '13px',
+  messageMaxLength: 400,
+  buttonFontSize: '14px',
+  buttonMaxLength: 34,
+  cssAnimation: true,
+  cssAnimationDuration: 360,
+  cssAnimationStyle: 'fade', // 'fade' - 'zoom'
+
+  success: {
+    svgColor: '#32c682',
+    titleColor: '#1e1e1e',
+    messageColor: '#242424',
+    buttonBackground: '#32c682',
+    buttonColor: '#fff',
+    backOverlayColor: 'rgba(50,198,130,0.2)',
+  },
+});
 
 // присвоюємо в константи умови для валідації
 // const patternName =
