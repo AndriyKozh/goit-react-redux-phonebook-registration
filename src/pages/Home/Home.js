@@ -15,7 +15,9 @@ export default function Home() {
   return (
     <MainContent>
       <h2 className="homePage">Home Page</h2>
-      <ContactsBookLine size="70" onClick={handleClick} />
+      <ContactsBookLine to="/phonebook" size="70" onClick={handleClick}>
+        <div>Enter</div>
+      </ContactsBookLine>
       {isClickedContacts ? (
         <UseInfo>To continue you should register or log in</UseInfo>
       ) : (

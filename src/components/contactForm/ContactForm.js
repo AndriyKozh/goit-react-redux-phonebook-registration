@@ -77,10 +77,16 @@ export const ContactForm = () => {
   const contacts = useSelector(selectContacts);
 
   const handleSubmit = (values, { resetForm }) => {
-    resetForm();
-    if (contacts.some(contact => contact.name === values.name)) {
+    if (
+      contacts.some(
+        contact => contact.name.toLowerCase() === values.name.toLowerCase()
+      )
+    ) {
       Notiflix.Notify.failure('Contact is already in contact list');
-    } else dispatch(addContact(values));
+    } else {
+      dispatch(addContact(values));
+      resetForm();
+    }
   };
   return (
     <>
