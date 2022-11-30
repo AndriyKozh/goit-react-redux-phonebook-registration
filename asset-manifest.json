@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/goit-react-redux-phonebook-registration/static/css/main.0aad7fcc.css",
-    "main.js": "/goit-react-redux-phonebook-registration/static/js/main.27d41fb6.js",
+    "main.js": "/goit-react-redux-phonebook-registration/static/js/main.80e28423.js",
     "static/js/526.80cef726.chunk.js": "/goit-react-redux-phonebook-registration/static/js/526.80cef726.chunk.js",
     "static/js/623.0222834a.chunk.js": "/goit-react-redux-phonebook-registration/static/js/623.0222834a.chunk.js",
-    "static/js/10.e46ecbd3.chunk.js": "/goit-react-redux-phonebook-registration/static/js/10.e46ecbd3.chunk.js",
+    "static/js/10.ab665519.chunk.js": "/goit-react-redux-phonebook-registration/static/js/10.ab665519.chunk.js",
     "static/js/542.d784f6e2.chunk.js": "/goit-react-redux-phonebook-registration/static/js/542.d784f6e2.chunk.js",
     "static/js/705.37e1d1e8.chunk.js": "/goit-react-redux-phonebook-registration/static/js/705.37e1d1e8.chunk.js",
     "static/js/103.c746153f.chunk.js": "/goit-react-redux-phonebook-registration/static/js/103.c746153f.chunk.js",
@@ -13,10 +13,10 @@
     "static/media/img2.akspic.ru-atmosfera-geometriya-matematika-purpur-fioletovyj-1080x1920.jpg": "/goit-react-redux-phonebook-registration/static/media/img2.akspic.ru-atmosfera-geometriya-matematika-purpur-fioletovyj-1080x1920.355047737532e43a9f11.jpg",
     "index.html": "/goit-react-redux-phonebook-registration/index.html",
     "main.0aad7fcc.css.map": "/goit-react-redux-phonebook-registration/static/css/main.0aad7fcc.css.map",
-    "main.27d41fb6.js.map": "/goit-react-redux-phonebook-registration/static/js/main.27d41fb6.js.map",
+    "main.80e28423.js.map": "/goit-react-redux-phonebook-registration/static/js/main.80e28423.js.map",
     "526.80cef726.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/526.80cef726.chunk.js.map",
     "623.0222834a.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/623.0222834a.chunk.js.map",
-    "10.e46ecbd3.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/10.e46ecbd3.chunk.js.map",
+    "10.ab665519.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/10.ab665519.chunk.js.map",
     "542.d784f6e2.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/542.d784f6e2.chunk.js.map",
     "705.37e1d1e8.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/705.37e1d1e8.chunk.js.map",
     "103.c746153f.chunk.js.map": "/goit-react-redux-phonebook-registration/static/js/103.c746153f.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.0aad7fcc.css",
-    "static/js/main.27d41fb6.js"
+    "static/js/main.80e28423.js"
   ]
 }
