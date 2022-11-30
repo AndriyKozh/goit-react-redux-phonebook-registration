@@ -8,6 +8,7 @@ import { RestrictedRoute } from './RestrictedRoute';
 import { PrivateRoute } from './PrivateRoute';
 import PhoneBtnIcon from './phoneBtnIconStyle/PhoneBtnIcon';
 import Clock from './Clock/Clock';
+import NotFound from 'pages/NotFound/NotFound';
 
 const HomePage = lazy(() => import('../pages/Home/Home'));
 const PhoneBook = lazy(() => import('../pages/Phonebook/Phonebook'));
@@ -58,6 +59,7 @@ export function App() {
                     <PrivateRoute component={PhoneBook} redirectTo="/login" />
                   }
                 />
+                <Route path="*" element={<NotFound />} />
               </Route>
             </Routes>
           )}
